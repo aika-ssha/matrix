@@ -15,7 +15,6 @@ public class MatrixPrint {
         Matrix matrix = new Matrix();
 
         System.out.println(matrix);
-        System.out.println();
     }
 }
 
