@@ -10,5 +10,11 @@ package com.epam.ssha.matrix;
  */
 
 public class MatrixInit {
+    public static void main (String[] args){
+
+        Matrix printMatrix = new Matrix();
+
+        System.out.println(printMatrix.getMatrixMarch());
+    }
 
 }

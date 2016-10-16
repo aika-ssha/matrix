@@ -9,22 +9,13 @@ package com.epam.ssha.matrix;
  * This is package for operations on matrices, like addition and transposition
  */
 
-import static com.epam.ssha.matrix.util.PropertyManager.propertyManager;
-
 public class PrintValue {
 
-    public static void main (String[] args) {
-        String currency = propertyManager.getProperty("user1.january.currencymoney");
-        String name = propertyManager.getProperty("user1.name");
-        int numpurchase = propertyManager.getIntProperty("user1.january.numpurchase");
-        int amountmoney = propertyManager.getIntProperty("user1.january.amountmoney");
-        int numberactiveday = propertyManager.getIntProperty("user1.january.numberactiveday");
-
-
-        System.out.println(currency);
-        System.out.println(name);
-        System.out.println(numpurchase);
-        System.out.println(numberactiveday);
-        System.out.println(amountmoney);
-    }
+//    public static void main (String[] args) {
+//
+//        Matrix matrix = new Matrix();
+//
+//        System.out.println(matrix);
+//        System.out.println();
+//    }
 }
